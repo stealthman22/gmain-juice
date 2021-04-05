@@ -68,7 +68,11 @@ font-style: italic;
 .hero-txt {
 justify-content: center;
 align-items: center;
+}
 
+.showcase-ctn {
+
+ margin-top: 2rem;
 }
 }
 
@@ -174,7 +178,7 @@ color:   #fa8b0d;
  padding-bottom: 1rem;
 }
 
-/* 975 breakpoint */
+
 
 .grid {
  padding: 1rem 2rem;
@@ -212,19 +216,14 @@ transition: 0.2s;
 }
 
 .card-header{
- font-size: 3rem;
+ font-size: 2rem;
+ font-style: oblique;
  font-weight: 500;
  color: #0d0d0d;
  margin-bottom: 1rem;
 }
 
 .card-btn{
- /* display: block;
- width: 100%;
- padding: 1.5rem;
- font-size: 2rem;
- text-align: center;
- color: #fa8b0d; */
 
  padding: 0.7rem;
  margin: 1rem auto;
@@ -240,7 +239,6 @@ transition: 0.2s;
  border: none;
  transition: 0.2s;
 }
-
 
 .card-btn span {
  margin-left: 0.7rem;
@@ -262,7 +260,7 @@ margin-left: 1.5rem;
 
 @media only screen and (max-width: 975px) {
 .showcase-ctn{
-  padding: 4rem;
+  padding: 1rem 4rem ;
 }
 
 .grid {
