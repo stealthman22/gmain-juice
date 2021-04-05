@@ -91,19 +91,6 @@ align-items: center;
  width: 100vw;
  background: url('./assets/pexels-susanne-jutzeler-1233319.jpg') no-repeat center center / cover;
 }
-/* 
-.hero-txt {
-margin-bottom: 0.31rem;
-padding: 1rem;
-width: 60vw;
-height: 10rem;
-border-radius: 10px;
-box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
-text-align: center;
-background-color: #f3f3f3;
-align-self: flex-end;
-
-} */
 
 
 .hero-txt {
@@ -152,9 +139,10 @@ color:   #fa8b0d;
  color: #fff;
  font-weight: bold;
  display: flex;
- height: 25vh;
+ min-height: 25vh;
  /* denim blue */
  background-color: #151e3d;
+ margin-bottom: 0;
 }
 
 .copyright {
